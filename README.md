@@ -15,4 +15,4 @@ The objective of this project is to demonstrate the skills acquired during my Fo
 ## STEPS 
 This are the steps i took in order to me this project possbile ,with images .
 ### STEP1: Accessing fortigate GUI
-In order to connect the GUI in gsn3 ,the firewall as to be to outer network through the "cloud" appliance in gns3 and 
+In order to connect the GUI in gsn3 ,the firewall as to be to outer network through the "cloud" appliance. 
