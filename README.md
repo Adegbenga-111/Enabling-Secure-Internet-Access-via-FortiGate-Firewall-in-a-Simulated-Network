@@ -30,8 +30,14 @@ image2: Login to the firewall through  CLI in order to optain the ip address tha
 image3:In the upper part of this image , basic setting of port1 of the firewall is displayed, this can be done also by using the 'get system interface ' command which was used in the image also but this command shows all the information of every ports in the firewall .From the image detail shown are ; the ip address of the ports ,the network protocols that are allowed access, the mode of the firewall and so on. 
 
  Connecting to the firewall GUI through firefox browser using port1 ip address shown in image 3.
+
+ ###STEP2: Configuration of the internal network.
+
+The internal network is a network consisting of a swtich and few end devices, connected to port2 of the firewall, as shown in the image below:
  
-![Alt gns3]()
+![Alt gns3](https://github.com/Adegbenga-111/Enabling-Secure-Internet-Access-via-FortiGate-Firewall-in-a-Simulated-Network/blob/main/Enabling%20Secure%20Internet%20Access%20via%20FortiGate%20Firewall%20in%20a%20Simulated%20Network%20-%20GNS3%207_16_2025%206_46_52%20AM.png)
+
+image4.
 
 
 
