@@ -49,7 +49,30 @@ image6: Configuraton of the Alias,the role , the ip address and the subnet mask.
 ![Alt gns3](https://github.com/Adegbenga-111/Enabling-Secure-Internet-Access-via-FortiGate-Firewall-in-a-Simulated-Network/blob/main/FortiGate%20-%20FortiGate-VM64-KVM%20%E2%80%94%20Mozilla%20Firefox%207_16_2025%207_00_25%20AM.png)
 image7: Setting network protocols for admin access in port2 and also configuring it as a DHCP server (in order for the firewall to give ip address to the end devices connected).
 ![Alt gns3](https://github.com/Adegbenga-111/Enabling-Secure-Internet-Access-via-FortiGate-Firewall-in-a-Simulated-Network/blob/main/FortiGate%20-%20FortiGate-VM64-KVM%20%E2%80%94%20Mozilla%20Firefox%207_16_2025%207_01_09%20AM.png)
-image8: this image showns the summary of all the configuration done in port2 and other ports .
+image8: this image showns the summary of all the configuration done in port2 and other ports.
+
+After the configuration of port2, I had to set up static routing i.e to forward the network traffic from port2 to port1(which is connect to the external network). The image below shows the configuration of static routing under the NETWORK section of the menu. 
+![Alt gns3](https://github.com/Adegbenga-111/Enabling-Secure-Internet-Access-via-FortiGate-Firewall-in-a-Simulated-Network/blob/main/FortiGate%20-%20FortiGate-VM64-KVM%20%E2%80%94%20Mozilla%20Firefox%207_16_2025%207_02_22%20AM.png)
+image9: The static routing interface
+
+
+After setting static route , I created a firewall policy in order to enable internet access to port2,the following images are how the policy is set:
+![Alt gns3](https://github.com/Adegbenga-111/Enabling-Secure-Internet-Access-via-FortiGate-Firewall-in-a-Simulated-Network/blob/main/FortiGate%20-%20FortiGate-VM64-KVM%20%E2%80%94%20Mozilla%20Firefox%207_16_2025%207_08_15%20AM.png)
+image10.
+From image10 it is shown that NAT(Network Address Translator) is enabled in order to allow the forwarding of traffic from port2 to port1. 
+![Alt gns3](https://github.com/Adegbenga-111/Enabling-Secure-Internet-Access-via-FortiGate-Firewall-in-a-Simulated-Network/blob/main/FortiGate%20-%20FortiGate-VM64-KVM%20%E2%80%94%20Mozilla%20Firefox%207_16_2025%207_10_35%20AM.png)
+image11.
+In image11 logging of traffic is also enabled , so network traffic are logged in the log and report section.
+
+![Alt gns3](https://github.com/Adegbenga-111/Enabling-Secure-Internet-Access-via-FortiGate-Firewall-in-a-Simulated-Network/blob/main/FortiGate%20-%20FortiGate-VM64-KVM%20%E2%80%94%20Mozilla%20Firefox%207_16_2025%207_10_49%20AM.png)
+image12: summary of the firewall policy and also show that the policy is working.
+
+After setting the policy, adding end devices to LAN network as shown below:
+![Alt gns3](https://github.com/Adegbenga-111/Enabling-Secure-Internet-Access-via-FortiGate-Firewall-in-a-Simulated-Network/blob/main/Enabling%20Secure%20Internet%20Access%20via%20FortiGate%20Firewall%20in%20a%20Simulated%20Network%20-%20GNS3%207_16_2025%207_42_44%20AM.png)
+image13: the image shows the device that where added to the local network.
+
+
+
 
 
 
