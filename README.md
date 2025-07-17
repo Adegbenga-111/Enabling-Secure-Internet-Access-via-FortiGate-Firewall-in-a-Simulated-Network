@@ -75,11 +75,13 @@ image13: the image shows the device that where added to the local network.
 ![Alt gns3](https://github.com/Adegbenga-111/Enabling-Secure-Internet-Access-via-FortiGate-Firewall-in-a-Simulated-Network/blob/main/PC1%20-%20PuTTY%207_16_2025%207_14_38%20AM.png)
 image14: In this image , the frist command is to acqure ip address from the firewall port2 (which as being set as a dhcp server), the second command is to ping the firewall port1 ip address , the last command is to ping google dns service ( which shows that the device is connected to the internet).
 ![Alt gns3](https://github.com/Adegbenga-111/Enabling-Secure-Internet-Access-via-FortiGate-Firewall-in-a-Simulated-Network/blob/main/PC2%20-%20PuTTY%207_16_2025%207_21_39%20AM.png)
-image15: The act done in pc1 was also done in pc2, but as shown in the image , i pinged not just google dns but other internet website and it was a success
+image15: The act done in pc1 was also done in pc2, but as shown in the image , i pinged not just google dns but other internet website and it was a success.
 
+![Alt gns3](https://github.com/Adegbenga-111/Enabling-Secure-Internet-Access-via-FortiGate-Firewall-in-a-Simulated-Network/blob/main/Mozilla%20Firefox%207_16_2025%207_22_42%20AM.png)
+image16: This image shows the logs of traffic generated in the network.
 
-
-
+## CONCLUSION
+This project successfully showcased the practical use of FortiGate firewall features to secure internet access for internal devices. It reinforced my understanding of firewall configuration, network security principles, and real-world troubleshooting — aligning well with the objectives of the FCA training.
 
 
 
