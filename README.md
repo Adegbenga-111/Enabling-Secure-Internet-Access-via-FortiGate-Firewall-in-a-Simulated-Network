@@ -18,4 +18,13 @@ This are the steps i took in order to me this project possbile ,with images .
 In order to connect the GUI in gsn3 ,the firewall as to be to outer network through the "cloud" appliance. In order to make this happen , fortigate had to be connected the cloud  and has to optain ip from the "cloud" appliance , for this to happen fortinet has to be set in dhcp mode. As shown in the image below:
 
 ![Alt gns3](https://github.com/Adegbenga-111/Enabling-Secure-Internet-Access-via-FortiGate-Firewall-in-a-Simulated-Network/blob/main/Enabling%20Secure%20Internet%20Access%20via%20FortiGate%20Firewall%20in%20a%20Simulated%20Network%20-%20GNS3%207_16_2025%206_29_18%20AM.png)
-*image1: Connecting the firewall to the cloud appliance *
+
+image1: Connecting the firewall to the cloud appliance 
+
+![Alt gns3](https://github.com/Adegbenga-111/Enabling-Secure-Internet-Access-via-FortiGate-Firewall-in-a-Simulated-Network/blob/main/FortiGate7.0.9-1%20-%20PuTTY%207_16_2025%206_32_36%20AM.png)
+
+image2: Login to the firewall through  CLI in order to optain the ip address that will used to access the GUI.
+
+
+
+
