@@ -25,6 +25,10 @@ image1: Connecting the firewall to the cloud appliance
 
 image2: Login to the firewall through  CLI in order to optain the ip address that will used to access the GUI.
 
+![Alt gns3](https://github.com/Adegbenga-111/Enabling-Secure-Internet-Access-via-FortiGate-Firewall-in-a-Simulated-Network/blob/main/FortiGate7.0.9-1%20-%20PuTTY%207_16_2025%206_44_18%20AM.png)
+
+image3:In the upper part of this image , basic setting of port1 of the firewall is displayed, this can be done also by using the 'get system interface ' command which was used in the image also but this command shows all the information of every ports in the firewall .From the image detail shown are ; the ip address of the ports ,the network protocols that are allowed access, the mode of the firewall and so on. 
+
 
 
 
