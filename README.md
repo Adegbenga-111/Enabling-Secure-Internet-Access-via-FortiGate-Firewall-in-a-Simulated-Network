@@ -29,6 +29,10 @@ image2: Login to the firewall through  CLI in order to optain the ip address tha
 
 image3:In the upper part of this image , basic setting of port1 of the firewall is displayed, this can be done also by using the 'get system interface ' command which was used in the image also but this command shows all the information of every ports in the firewall .From the image detail shown are ; the ip address of the ports ,the network protocols that are allowed access, the mode of the firewall and so on. 
 
+ Connecting to the firewall GUI through firefox browser using port1 ip address shown in image 3.
+ 
+![Alt gns3]()
+
 
 
 
