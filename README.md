@@ -48,7 +48,8 @@ Now i move to click port2 perform the following task:
 image6: Configuraton of the Alias,the role , the ip address and the subnet mask.
 ![Alt gns3](https://github.com/Adegbenga-111/Enabling-Secure-Internet-Access-via-FortiGate-Firewall-in-a-Simulated-Network/blob/main/FortiGate%20-%20FortiGate-VM64-KVM%20%E2%80%94%20Mozilla%20Firefox%207_16_2025%207_00_25%20AM.png)
 image7: Setting network protocols for admin access in port2 and also configuring it as a DHCP server (in order for the firewall to give ip address to the end devices connected).
-
+![Alt gns3](https://github.com/Adegbenga-111/Enabling-Secure-Internet-Access-via-FortiGate-Firewall-in-a-Simulated-Network/blob/main/FortiGate%20-%20FortiGate-VM64-KVM%20%E2%80%94%20Mozilla%20Firefox%207_16_2025%207_01_09%20AM.png)
+image8: this image showns the summary of all the configuration done in port2 and other ports .
 
 
 
