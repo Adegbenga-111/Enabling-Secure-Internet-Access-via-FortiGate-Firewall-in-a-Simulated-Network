@@ -43,6 +43,11 @@ The next thing to do is to configure port2; give it ip and subnet mask , make it
 ![Alt gns3](https://github.com/Adegbenga-111/Enabling-Secure-Internet-Access-via-FortiGate-Firewall-in-a-Simulated-Network/blob/main/FortiGate%20-%20FortiGate-VM64-KVM%20%E2%80%94%20Mozilla%20Firefox%207_16_2025%206_56_15%20AM.png)
 image5: this image shows the all port in the firewall both active and inactive port.
 
+Now i move to click port2 perform the following task:
+![Alt gns3](https://github.com/Adegbenga-111/Enabling-Secure-Internet-Access-via-FortiGate-Firewall-in-a-Simulated-Network/blob/main/FortiGate%20-%20FortiGate-VM64-KVM%20%E2%80%94%20Mozilla%20Firefox%207_16_2025%207_00_02%20AM.png)
+image6: Configuraton of the Alias,the role , the ip address and the subnet mask.
+
+
 
 
 
