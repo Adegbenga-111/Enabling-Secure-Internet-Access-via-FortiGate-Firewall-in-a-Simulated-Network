@@ -31,7 +31,7 @@ image3:In the upper part of this image , basic setting of port1 of the firewall 
 
  Connecting to the firewall GUI through firefox browser using port1 ip address shown in image 3.
 
- ###STEP2: Configuration of the internal network.
+ ### STEP2: Configuration of the internal network.
 
 The internal network is a network consisting of a swtich and few end devices, connected to port2 of the firewall, as shown in the image below:
  
@@ -71,7 +71,7 @@ After setting the policy, adding end devices to LAN network as shown below:
 ![Alt gns3](https://github.com/Adegbenga-111/Enabling-Secure-Internet-Access-via-FortiGate-Firewall-in-a-Simulated-Network/blob/main/Enabling%20Secure%20Internet%20Access%20via%20FortiGate%20Firewall%20in%20a%20Simulated%20Network%20-%20GNS3%207_16_2025%207_42_44%20AM.png)
 image13: the image shows the device that where added to the local network.
 
-###STEP3: Testing (to see if the end devices are connected to the internet.
+### STEP3: Testing (to see if the end devices are connected to the internet.
 ![Alt gns3](https://github.com/Adegbenga-111/Enabling-Secure-Internet-Access-via-FortiGate-Firewall-in-a-Simulated-Network/blob/main/PC1%20-%20PuTTY%207_16_2025%207_14_38%20AM.png)
 image14: In this image , the frist command is to acqure ip address from the firewall port2 (which as being set as a dhcp server), the second command is to ping the firewall port1 ip address , the last command is to ping google dns service ( which shows that the device is connected to the internet).
 ![Alt gns3](https://github.com/Adegbenga-111/Enabling-Secure-Internet-Access-via-FortiGate-Firewall-in-a-Simulated-Network/blob/main/PC2%20-%20PuTTY%207_16_2025%207_21_39%20AM.png)
